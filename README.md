@@ -6,6 +6,11 @@ Folder rename functionality is not tested and probably buggy.
 
 ## Example usage
 ![example usage](screenshots/example_usage.PNG)
+Textboxes at the first row are for replacing strings with other strings. ":" character is used as seperator since it is not allowed in the filenames. Characters to remove are simply for removing unwanted characters.
+
+Multiple characters can be used between seperator characters for example.
+![example conversion](screenshots/example_conversion.PNG)
+means that all occurences of colour will ve replaced with color. As a result if you have a file with name "SourceColours.png", it will be renamed to "SourceColors.png".
 
 ## Buttons
 ![list button](screenshots/list_button.PNG)
