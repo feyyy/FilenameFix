@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="394.0" prefWidth="546.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="filenamefix.FixUIController">
+   <children>
+      <TextField fx:id="sourceCharacters" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="167.0" />
+      <TextField fx:id="targetCharacters" layoutX="209.0" layoutY="14.0" prefHeight="25.0" prefWidth="167.0" />
+      <Label layoutX="188.0" layoutY="18.0" text="-&gt;" />
+      <Label layoutX="16.0" layoutY="85.0" text="file or folder path" />
+      <TextField fx:id="rootFile" layoutX="135.0" layoutY="81.0" prefHeight="25.0" prefWidth="456.0" AnchorPane.leftAnchor="135.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="81.0" />
+      <Button layoutX="10.0" layoutY="119.0" mnemonicParsing="false" onAction="#listAction" text="List files and folders to rename" />
+      <Button layoutX="204.0" layoutY="119.0" mnemonicParsing="false" onAction="#convertAction" text="Convert all names" />
+      <TextArea fx:id="outputArea" layoutX="7.0" layoutY="154.0" prefHeight="233.0" prefWidth="532.0" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="154.0" />
+      <TextField fx:id="removedCharacters" layoutX="169.0" layoutY="49.0" prefHeight="25.0" prefWidth="167.0" />
+      <Label layoutX="16.0" layoutY="53.0" text="characters to remove" />
+   </children>
+</AnchorPane>
